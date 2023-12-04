@@ -1,0 +1,11 @@
+#wrap {
+    max-width: 1920px;
+
+    margin: 0 auto;
+}
+
+
+header, section, footer {
+    width: 100%;
+    
+}

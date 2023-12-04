@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시즌메뉴</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div id="in_header">
+                <div id="logo">
+                    <a href="../../index.html"><img src="img/logo.png" alt="로고"></a>
+                </div>
+                <ul id="menu">
+                    <li><a href="#">더카페 스토리</a></li>
+                    <li><a href="#">창업안내</a></li>
+                    <li><a href="#">더카페 메뉴</a></li>
+                    <li><a href="#">매장안내</a></li>
+                </ul>
+                <div id="side">
+                    <a href="#"><img src="img/side.png" alt="메뉴버튼"></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- header end -->
+
+
+        <section id="section_1"></section>
+
+        <section id="section_2">
+            <ul>
+                <li id="st"><a href="#">시즌메뉴</a></li>
+                <li><a href="#">커피/음료</a></li>
+                <li><a href="#">디저트</a></li>
+            </ul>
+        </section>
+
+
+        <section id="section_4">
+            <p id="title">더카페 적포도 신메뉴</p>
+            <div id="container">
+                <img src="img/마스크 그룹 52.png" alt="시즌메뉴 적포도">
+                <div id="con_box">
+
+                    <div id="con_1" class="con">
+                        <img src="img/포토젤리스무디.png" alt="">
+                        <h1>포도젤리스무디</h1>
+                        <p>새콤달콤 적포도 과즙,</br>
+                            탱글탱글 워터젤리 바닐라 아이스크림의</br>
+                            부드러운 맛을 한컵에 담은 스무디
+                        </p>
+                    </div>
+
+                    <div id="con_2" class="con">
+                        <img src="img/포도코코에이드.png" alt="">
+                        <h1>포도젤리스무디</h1>
+                        <p>새콤달콤 적포도 과즙,</br>
+                            탱글탱글 워터젤리 바닐라 아이스크림의</br>
+                            부드러운 맛을 한컵에 담은 스무디
+                        </p>
+                    </div>
+
+                    <div id="con_3" class="con">
+                        <img src="img/포도쥬스.png" alt="">
+                        <h1>포도젤리스무디</h1>
+                        <p>새콤달콤 적포도 과즙,</br>
+                            탱글탱글 워터젤리 바닐라 아이스크림의</br>
+                            부드러운 맛을 한컵에 담은 스무디
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+          <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><a href="#"><img src="img/1.png" alt="">
+    <h1> 적포도 신메뉴 </h1> <p>2023-07-07</p></a></div>
+      <div class="swiper-slide"><a href="#"><img src="img/2.png" alt="">
+        <h1> 애슐리퀸즈 콜라보 신메뉴 </h1> <p>2023-05-23</p></a></div>
+      <div class="swiper-slide"><a href="#"><img src="img/3.png" alt="">
+        <h1> 겨울 딸기 신메뉴 </h1> <p>2023-02-07</p></a></div>
+      <div class="swiper-slide"><a href="#"><img src="img/4.png" alt="">
+        <h1> 아침햇살 콜라보 신메뉴 </h1> <p>2022-11-22</p></a></div>
+      <div class="swiper-slide"><a href="#"><img src="img/5.png" alt="">
+        <h1> 22년 가을 신메뉴 </h1> <p>2022-09-21</p></a></div>
+      <div class="swiper-slide"><a href="#"><img src="img/6.png" alt="">
+        <h1> 22년 여름 신메뉴 </h1> <p>2022-06-24</p></a></div>
+    </div>
+    <!-- <div class="swiper-pagination"></div> -->
+    <!-- Add Navigation -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+    </script>
+
+        <footer>
+            
+            <div id="footer_left">
+            <div id="footer_text"> 
+                    <h1>대표번호 1670-1558</h1>
+                    <p>(평일 10:00~22:00 | 주말 9:00~22:00)</p>
+                    <p>(주)더카페 | 사업자등록번호 : 276-48-00685</p>
+                    <p>Copyright © 2015 더카페. All right Reserved.</p>
+                </div>
+            </div>
+            <div id="footer_right">
+                <div id="footer_icon">
+                    <div id="ins"><img src="img/ins.png" alt="인스타"></div>
+                    <div id="face"><img src="img/face.png" alt="페이스북"></div>
+                </div>
+            </div>
+
+         </footer>
+
+    <!-- <div id="footer_m">
+        <div id="footer_inbox">
+            <div id="footer_up">
+                <div id="up_icon">
+                    <div id="ins"><img src="img/ins.png" alt="인스타"></div>
+                    <div id="face"><img src="img/face.png" alt="페이스북"></div>
+                </div>
+            </div>
+            <div id="footer_down">
+                <div id="down_text"> 
+                    <h1>대표번호 1670-1558</h1>
+                    <p>(평일 10:00~22:00 | 주말 9:00~22:00)</p>
+                    <p>(주)더카페 | 사업자등록번호 : 276-48-00685</p>
+                    <p>Copyright © 2015 더카페. All right Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- footer end -->
+
+
+    </div>
+
+
+</body>
+</html>
